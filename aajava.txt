@@ -1,0 +1,49 @@
+2016-09-06 12:10:00,731 INFO  (AbstractApplicationContext.java:456) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fe3ee3: startup date [Tue Sep 06 12:10:00 CST 2016]; root of context hierarchy
+2016-09-06 12:10:01,159 INFO  (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [config/applicationContext.xml]
+2016-09-06 12:10:01,303 INFO  (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [config/applicationContext-quartz.xml]
+2016-09-06 12:10:01,632 INFO  (DefaultListableBeanFactory.java:555) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6c658: defining beans [monitorAgentJob,monitorAgentJobDetail,cronMonitorTrigger,schedulerFactory,managerFactory]; root of factory hierarchy
+2016-09-06 12:10:02,588 INFO  (QuartzScheduler.java:209) - Quartz Scheduler v.1.6.0 created.
+2016-09-06 12:10:02,601 INFO  (RAMJobStore.java:141) - RAMJobStore initialized.
+2016-09-06 12:10:02,602 INFO  (StdSchedulerFactory.java:1208) - Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2016-09-06 12:10:02,603 INFO  (StdSchedulerFactory.java:1212) - Quartz scheduler version: 1.6.0
+2016-09-06 12:10:02,613 INFO  (QuartzScheduler.java:2065) - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@10366b4
+2016-09-06 12:10:02,700 INFO  (DefaultLifecycleProcessor.java:330) - Starting beans in phase 2147483647
+2016-09-06 12:10:02,702 INFO  (SchedulerFactoryBean.java:650) - Starting Quartz Scheduler now
+2016-09-06 12:10:02,703 INFO  (QuartzScheduler.java:455) - Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2016-09-06 12:10:02,709 INFO  (QuartzScheduler.java:455) - Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2016-09-06 12:11:00,089 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:11:00,090 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:11:01,313 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:11:01,611 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:11:01,612 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
+2016-09-06 12:12:00,023 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:12:00,024 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:12:00,081 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:12:00,094 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:12:00,095 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
+2016-09-06 12:13:00,024 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:13:00,026 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:13:00,072 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:13:00,083 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:13:00,085 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
+2016-09-06 12:14:00,020 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:14:00,022 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:14:00,063 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:14:00,073 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:14:00,074 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
+2016-09-06 12:15:00,021 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:15:00,023 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:15:00,063 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:15:00,073 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:15:00,074 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
+2016-09-06 12:16:00,018 INFO  (MonitorAgentUtil.java:48) - MonitorAgentUtil starts
+2016-09-06 12:16:00,020 INFO  (MonitorAgentUtil.java:50) - 初始化MonitorConfig
+2016-09-06 12:16:00,089 INFO  (MonitorAgentUtil.java:54) - 初始化MonitorConfig成功,MonitorConfig:mailSmtpHost=smtp.126.com,mailTransportProtocol=smtp,mailSmtpPort=25,mailSmtpAuth=true,mailDebug=false,mailStoreHost=pop.126.com,mailStoreProtocol=pop3,mailStorePort=110,soTimeout=60000,connectionTimeout=60000,mailUser=monitor_agent001,mailPassword=T78901,deviceMailAddr=monitor_agent001@126.com,deviceId=A-001,masterMailAddr=sivi_controller@126.com,signature=i4mfgtsKZ4K1BIHDONKGLFEuOlen,photoPath=/home/pi/tanjpg/image.jpg,temperatureCmd=sudo python /home/pi/TH.py,photoCmd=sudo /home/pi/takephoto.sh,lightOnCmd=sudo python /home/pi/lighton.py,lightOffCmd=sudo python /home/pi/lightoff.py
+
+2016-09-06 12:16:00,104 INFO  (MonitorAgentUtil.java:65) - mailList empty
+2016-09-06 12:16:00,107 INFO  (MonitorAgentUtil.java:87) - MonitorAgentUtil ends
