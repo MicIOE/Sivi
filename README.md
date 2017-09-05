@@ -12,7 +12,7 @@
 
 
 3、发件箱 monitor_controller@126.com / sivi_controller@126.com
-口令：q%45Q8kZ
+口令：g%45Q8kZ
 
 触发反馈格式：
 A-001 on
